@@ -50,11 +50,11 @@ const Game = () => {
                 <div className="flex gap-[30px] justify-center my-[50px]"> 
                     <div className="flex flex-col gap-4">
                         <h3 className="text-2xl font-bold text-green-500">USER</h3>
-                        <img className="h-[180px] w-[180px]" src={`../image/${userChoice}`} alt="..."/>
+                        <img className="h-[180px] w-[180px]" src={`../image/${userChoice}.PNG`} alt="..."/>
                     </div>
                     <div className="flex flex-col gap-4">
                         <h3 className="text-2xl font-bold text-red-500">COMPUTER</h3>
-                        <img className="h-[180px] w-[180px]" src={`../image/${computerChoice}`} alt="..."/>
+                        <img className="h-[180px] w-[180px]" src={`../image/${computerChoice}.PNG`} alt="..."/>
                     </div>
                 </div>
 
