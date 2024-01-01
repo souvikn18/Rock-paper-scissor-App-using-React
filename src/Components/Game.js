@@ -4,8 +4,8 @@ import '../App.css'
 
 const Game = () => {
     const [score, setScore] = useState(0)
-    const [userChoice, setUserChoice] = useState('rock')
-    const [computerChoice, setComputerChoice] = useState('rock')
+    const [userChoice, setUserChoice] = useState('Rock')
+    const [computerChoice, setComputerChoice] = useState('Rock')
     const [result, setResult] = useState('')
 
     const choices = ['Rock', 'Paper', 'Scissor']
