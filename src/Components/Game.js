@@ -19,7 +19,7 @@ const Game = () => {
         const randomChoice = choices[Math.floor(Math.random() * choices.length)]
         setComputerChoice(randomChoice)
     }
-
+    
     
 
     useEffect(() => {
@@ -63,7 +63,7 @@ const Game = () => {
                         return <button className=" h-[50px] w-[100px] xl:w-[200px] rounded-3xl text-xl font-semibold bg-slate-800 hover:bg-orange-200 hover:text-slate-800" key={index} onClick={() => handleClick(choice)}>{choice}</button>
                     })}
                 </div>
-                <p className="text-xl font-semibold my-[30px]">Result: {result}</p>
+                <p className="text-2xl font-semibold my-[30px]">Result: {result}</p>
                 
         </div>
         </>
